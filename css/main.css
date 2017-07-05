@@ -1,17 +1,17 @@
 .schedule-container {
-     min-width: 1000px;
+     min-width: 1600px;
 
 }
 
 .input-container {
-     min-width: 1000px;
+     min-width: 1600px;
    
 }
 
 
  body {
-        background: url('http://i.ytimg.com/vi/9hmQSa1TLFk/maxresdefault.jpg') no-repeat center center fixed;
-    
+        background: url('../img/cherry.jpg') no-repeat center center fixed;
+ 
    }
 
  table {
@@ -22,6 +22,6 @@
 
 .jumbotron {
      color: white;
-     background-color: rgba(0,0,0,0.4);
-     min-width: 1000px;
+     background-color: rgba(0,0,0,0.1);
+     min-width: 1600px;
 }
