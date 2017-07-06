@@ -1,27 +1,31 @@
 .schedule-container {
-     min-width: 1600px;
+     min-width: 600px;
 
 }
 
 .input-container {
-     min-width: 1600px;
+     min-width: 600px;
    
 }
+panel-body {
 
+	background-color: rgba(0,0,0,0.4);
+}
 
  body {
-        background: url('../img/cherry.jpg') no-repeat center center fixed;
+        background: url('http://i.ytimg.com/vi/9hmQSa1TLFk/maxresdefault.jpg') no-repeat center center fixed;
  
    }
 
  table {
      border-collapse: separate;
-     border-spacing: 16px;
+     border-spacing: 10px;
+     background-color: rgba(0,0,0,0.4);
 
 }
 
 .jumbotron {
      color: white;
-     background-color: rgba(0,0,0,0.1);
-     min-width: 1600px;
+     background-color: rgba(0,0,0,0.4);
+     min-width: 600px;
 }

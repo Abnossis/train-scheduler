@@ -49,4 +49,5 @@ $(document).ready(function() {
                nextTrainFormatted: nextTrainFormatted,
                minutesTillTrain: minutesTillTrain
      	});
-          
+     }); 
+}); // Closes jQuery wrapper
