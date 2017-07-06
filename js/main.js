@@ -57,7 +57,24 @@ $(document).ready(function() {
 
           return false;
      });
+          //id=" + "'" + keyHolder.path.u[0] + "'" + "
+     dataRef.on("child_added", function(childSnapshot) {
 
+     // Item list
+
+          $('.train-schedule').append("<tr class='table-row' id=" + "'" + childSnapshot.key() + "'" + ">" +
+               "<td class='col-xs-3'>" + childSnapshot.val().name +
+               "</td>" +
+               "<td class='col-xs-2'>" + childSnapshot.val().destination +
+               "</td>" +
+               "<td class='col-xs-2'>" + childSnapshot.val().frequency +
+               "</td>" +
+               "<td class='col-xs-2'>" + childSnapshot.val().nextTrainFormatted + // Next Arrival Formula ()
+               "</td>" +
+               "<td class='col-xs-2'>" + childSnapshot.val().minutesTillTrain + // Minutes Away Formula
+               "</td>" +
+               "<td class='col-xs-1'>" + "<input type='submit' value='remove train' class='remove-train btn btn-primary btn-sm'>" + "</td>" +
+          "</tr>");
 
 
      

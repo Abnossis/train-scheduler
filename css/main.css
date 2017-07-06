@@ -7,10 +7,7 @@
      min-width: 600px;
    
 }
-panel-body {
-
-	background-color: rgba(0,0,0,0.4);
-}
+panel-body {}
 
  body {
         background: url('http://i.ytimg.com/vi/9hmQSa1TLFk/maxresdefault.jpg') no-repeat center center fixed;
@@ -20,7 +17,7 @@ panel-body {
  table {
      border-collapse: separate;
      border-spacing: 10px;
-     background-color: rgba(0,0,0,0.4);
+/*     background-color: rgba(0,0,0,0.4);*/
 
 }
 
