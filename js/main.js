@@ -1,4 +1,4 @@
-// My Firebase link
+// My Firebase link 
 var url ="https://train-schedule-9e509.firebaseio.com/";
 var dataRef = new Firebase(url);
 var name ='';
@@ -49,5 +49,16 @@ $(document).ready(function() {
                nextTrainFormatted: nextTrainFormatted,
                minutesTillTrain: minutesTillTrain
      	});
-     }); 
+
+          $('#name-input').val('');
+          $('#destination-input').val('');
+          $('#first-train-time-input').val('');
+          $('#frequency-input').val('');
+
+          return false;
+     });
+
+
+
+     
 }); // Closes jQuery wrapper
