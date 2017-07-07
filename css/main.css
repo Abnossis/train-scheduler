@@ -8,10 +8,14 @@
 
  body {
         background: url('http://i.ytimg.com/vi/9hmQSa1TLFk/maxresdefault.jpg') no-repeat center center fixed;
+<<<<<<< HEAD
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+=======
+ 
+>>>>>>> 4dd057b02d65586e9e6dbfdf56edab6c811c7ca0
    }
 
  table {
